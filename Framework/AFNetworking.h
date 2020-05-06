@@ -52,6 +52,7 @@ FOUNDATION_EXPORT const unsigned char AFNetworkingVersionString[];
 #import <AFNetworking/AFImageDownloader.h>
 #import <AFNetworking/UIActivityIndicatorView+AFNetworking.h>
 #import <AFNetworking/UIButton+AFNetworking.h>
+#import <AFNetworking/UIImage+AFNetworking.h>
 #import <AFNetworking/UIImageView+AFNetworking.h>
 #import <AFNetworking/UIProgressView+AFNetworking.h>
 #endif
