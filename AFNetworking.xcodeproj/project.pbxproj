@@ -206,6 +206,10 @@
 		E91164651DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
 		E91164661DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
 		E91164671DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
+		EF455C5C2463120E00C89D60 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EF455C5B2463120D00C89D60 /* UIImage+AFNetworking.h */; };
+		EF455C5D2463120E00C89D60 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EF455C5B2463120D00C89D60 /* UIImage+AFNetworking.h */; };
+		EF455C5E2463120E00C89D60 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EF455C5B2463120D00C89D60 /* UIImage+AFNetworking.h */; };
+		EF455C5F2463120E00C89D60 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EF455C5B2463120D00C89D60 /* UIImage+AFNetworking.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -317,6 +321,7 @@
 		E2B10D8C233035100004E005 /* Amazon Root CA 1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amazon Root CA 1.cer"; sourceTree = "<group>"; };
 		E2B10D8D233035100004E005 /* Amazon.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amazon.cer; sourceTree = "<group>"; };
 		E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestSerializerTests.m; sourceTree = "<group>"; };
+		EF455C5B2463120D00C89D60 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -536,6 +541,7 @@
 		299522851BBF13C700859F49 /* UIKit+AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				EF455C5B2463120D00C89D60 /* UIImage+AFNetworking.h */,
 				299522861BBF13C700859F49 /* AFAutoPurgingImageCache.h */,
 				299522871BBF13C700859F49 /* AFAutoPurgingImageCache.m */,
 				299522881BBF13C700859F49 /* AFImageDownloader.h */,
@@ -589,6 +595,7 @@
 				29D96E941BCC406B00F571A5 /* AFAutoPurgingImageCache.h in Headers */,
 				29D96E951BCC406B00F571A5 /* AFImageDownloader.h in Headers */,
 				1F96D2A7203649580085FC3F /* AFCompatibilityMacros.h in Headers */,
+				EF455C5F2463120E00C89D60 /* UIImage+AFNetworking.h in Headers */,
 				29D96E961BCC406B00F571A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				29D96E971BCC406B00F571A5 /* UIButton+AFNetworking.h in Headers */,
 				29D96E991BCC406B00F571A5 /* UIImageView+AFNetworking.h in Headers */,
@@ -610,6 +617,7 @@
 				2995229E1BBF13C700859F49 /* AFImageDownloader.h in Headers */,
 				2995225E1BBF125A00859F49 /* AFURLSessionManager.h in Headers */,
 				323D83E2231D185400C5BFC6 /* WKWebView+AFNetworking.h in Headers */,
+				EF455C5C2463120E00C89D60 /* UIImage+AFNetworking.h in Headers */,
 				2995225C1BBF125A00859F49 /* AFURLResponseSerialization.h in Headers */,
 				299522A21BBF13C700859F49 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				1F96D2A4203649560085FC3F /* AFCompatibilityMacros.h in Headers */,
@@ -632,6 +640,7 @@
 				29D96E7E1BCC3D6000F571A5 /* AFURLResponseSerialization.h in Headers */,
 				29D96E7F1BCC3D6000F571A5 /* AFURLSessionManager.h in Headers */,
 				29D96E801BCC3D6000F571A5 /* AFNetworking.h in Headers */,
+				EF455C5D2463120E00C89D60 /* UIImage+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +648,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF455C5E2463120E00C89D60 /* UIImage+AFNetworking.h in Headers */,
 				29D96E811BCC3D7200F571A5 /* AFHTTPSessionManager.h in Headers */,
 				29D96E821BCC3D7200F571A5 /* AFNetworkReachabilityManager.h in Headers */,
 				29D96E831BCC3D7200F571A5 /* AFSecurityPolicy.h in Headers */,
